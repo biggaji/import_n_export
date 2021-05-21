@@ -1,1 +1,1 @@
-export type Transaction_status: "pending" | "failed" | "successful";
+export type Transaction_status = "pending" | "failed" | "successful";
