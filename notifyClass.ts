@@ -1,4 +1,4 @@
- class NotifyUser() {
+ class NotifyUser {
  	public username: string;
  	public roomId: number;
 
@@ -7,8 +7,8 @@
  		this.roomId = roomId;
  	}
 
- 	protected notifyOnEntry(): string {
- 		return  `${this.username} has entered  room ${this.room}!`;
+	notifyOnEntry(): string {
+ 		return  `${this.username} has entered  room ${this.roomId}!`;
  	}
  }
 
